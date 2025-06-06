@@ -11,6 +11,7 @@ I'm a full stack developer...
 
 ### 🛠 Skills
 Deep Learning, NLP, Machine Learning, Computer vision, Nvidia Jetson
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Atharvap914&show_icons=true&locale=en" alt="Atharvap914" /></p>
 
 ### :fire: My Stats :
 

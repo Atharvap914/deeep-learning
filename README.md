@@ -1,5 +1,18 @@
 ## 🚀 About Me
-I'm a full stack developer...
+# 👋 Hi, I'm Atharva Patki
+🔍 AI/ML Developer | 🤖 Deep Learning Enthusiast | 📊 Data Scientist
+
+## 🧠 My Expertise
+- 🔬 Machine Learning, Deep Learning,NLP
+- 💻 Python | TensorFlow | PyTorch | Scikit-learn | OpenCV
+- 📊 Data Visualization (Matplotlib, Seaborn, Plotly)
+- ☁ Google Colab | Jupyter Notebooks | Git | Docker
+
+## 🚀 Projects
+- 🧠 [trophy and medals Detection using CNN]()
+- 🐍 [Stock Price Prediction using NLP]()
+- 🎯 [spam ham message Detection with NLP]()
+
 
 
 # Hi, I'm Atharv! 👋

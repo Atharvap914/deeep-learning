@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 import os
@@ -13,7 +10,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, Model
 
 
-# In[2]:
+#
 
 
 image_dir = r"C:\Users\ath\Desktop\converted\train\images"
@@ -43,7 +40,7 @@ Y = np.array(masks)
 X_train, X_val, Y_train, Y_val = train_test_split(X, Y, test_size=0.2, random_state=42)
 
 
-# In[3]:
+
 
 
 inputs = layers.Input(shape=(256, 256, 1))
@@ -79,13 +76,13 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 model.summary()
 
 
-# In[4]:
+
 
 
 model.fit(X_train, Y_train, validation_data=(X_val, Y_val), epochs=21, batch_size=8)
 
 
-# In[5]:
+
 
 
 test_image_dir = r"C:\Users\ath\Desktop\converted\test\images"
@@ -112,14 +109,14 @@ X_test = np.array(test_images)
 Y_test = np.array(test_masks)
 
 
-# In[6]:
+
 
 
 preds = model.predict(X_test)
 preds = (preds > 0.5).astype(np.uint8)  # Binarize predicted masks
 
 
-# In[7]:
+
 
 
 import matplotlib.pyplot as plt
@@ -135,7 +132,7 @@ for i in range(n):
     plt.title('Test Image')
     plt.axis('off')
 
-    # Ground Truth Mask
+    
     plt.subplot(1, 3, 2)
     plt.imshow(Y_test[i].squeeze(), cmap='gray')
     plt.title('True Mask')
@@ -151,7 +148,7 @@ for i in range(n):
     plt.show()
 
 
-# In[ ]:
+
 
 
 

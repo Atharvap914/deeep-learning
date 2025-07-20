@@ -68,6 +68,22 @@ Deep Learning is a subfield of Machine Learning inspired by the human brain. It 
 > **Tools**: PyTorch, LabelImg  
 > **Application**: Real-time camera-based detection
 
+
+### 7. 🐾 Oxford Pet Breed Classifier (oxford_vgg_resnet_pca_xgb.py)
+Task: Multi-class classification of 37 pet breeds (dogs & cats)
+Models Used: VGG16 + ResNet50 (for feature extraction)
+Technique: Feature Concatenation → PCA → XGBoost
+Dataset: Oxford-IIIT Pet Dataset
+Highlights:
+
+Pretrained VGG16 & ResNet used for deep features
+
+PCA applied to reduce feature dimensionality
+
+Final classification using XGBoost
+Result: Achieved high accuracy with a lightweight hybrid architecture
+
+
 ---
 
 ## ⚙️ Tech Stack

@@ -93,7 +93,11 @@ Result: Achieved high accuracy with a lightweight hybrid architecture
 - **Models**: CNN, U-Net, VGG16, ResNet, PCA, XGBoost, YOLOv5  
 - **Tools**: Jupyter Notebook, Google Colab, Kaggle, GitHub
 
- 8. 🌦️ Weather Forecasting (weather_forecasting_Bidirectional_LSTM.py)
+ 
+ 
+ 
+ 
+ ### 8. 🌦️ Weather Forecasting (weather_forecasting_Bidirectional_LSTM.py)
 Task: Predict next-hour temperature using past 24 hours of weather data
 Model: CNN + Bidirectional LSTM (hybrid architecture)
 Dataset: Jena Climate Dataset (2009–2016)

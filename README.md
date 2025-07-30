@@ -92,3 +92,20 @@ Result: Achieved high accuracy with a lightweight hybrid architecture
 - **Libraries**: TensorFlow, Keras, PyTorch, Scikit-learn, OpenCV  
 - **Models**: CNN, U-Net, VGG16, ResNet, PCA, XGBoost, YOLOv5  
 - **Tools**: Jupyter Notebook, Google Colab, Kaggle, GitHub
+
+ 8. 🌦️ Weather Forecasting (weather_forecasting_Bidirectional_LSTM.py)
+Task: Predict next-hour temperature using past 24 hours of weather data
+Model: CNN + Bidirectional LSTM (hybrid architecture)
+Dataset: Jena Climate Dataset (2009–2016)
+Features: Temperature (T), Pressure (p), Air Density (ρ)
+Technique: Time series windowing (24-hour sequence), Conv1D for local trend extraction, BiLSTM for temporal pattern learning
+Highlights:
+
+Hybrid deep learning model with both spatial & temporal understanding
+
+Scaled data with MinMaxScaler for faster convergence
+
+Early stopping to avoid overfitting
+
+Final prediction decoded back to Celsius
+Result: Smooth temperature prediction with low test loss and close actual vs predicted curve
